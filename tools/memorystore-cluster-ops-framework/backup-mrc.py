@@ -34,8 +34,8 @@ def parseArgs():
     parser.add_argument("-t", "--file_type", default="json", help="File type", required=False)
 
     args = parser.parse_args()
-    if args.file_type not in ["json", "xml"]:
-        raise ValueError("File type must be json or xml")
+    if args.file_type not in ["json", "xml", "json.gz"]:
+        raise ValueError("File type must be json or xml or json.gz")
     
     return args
 
