@@ -15,10 +15,10 @@
 
 
 
-from mrc_framework import redisCluster, write_log
-from mrc_framework import replicate_data
-from mrc_framework import validateCounts
-from mrc_framework import deepValidate
+from tools.mrc_framework import redisCluster, write_log
+from tools.mrc_framework import replicate_data
+from tools.mrc_framework import validateCounts
+from tools.mrc_framework import deepValidate
 import argparse
 
 def parseArgs():

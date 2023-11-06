@@ -15,7 +15,7 @@
 
 
 
-from mrc_framework import redisCluster, write_log
+from tools.mrc_framework import redisCluster, write_log
 import argparse
 
 def parseArgs():
